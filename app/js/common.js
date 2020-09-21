@@ -258,3 +258,44 @@ function closeMenu()
         });
     }
 }
+
+var initYotubeThings = function() {
+
+	var i, c, y, v, s, n;
+	v = document.getElementsByClassName("youtube");
+
+	for (n = 0; n < v.length; n++) {
+		y = v[n]; // element
+
+		var img_source = y.dataset.thumb;
+
+		i = document.createElement("img");
+
+		if (typeof img_source !== 'undefined') {
+			i.setAttribute("src", img_source);
+		}
+		else {
+			i.setAttribute("src", "https://img.youtube.com/vi/" + y.id + "/0.jpg");
+		}
+
+
+		i.setAttribute("class", "img-responsive img-width");
+
+		y.appendChild(i);
+
+		y.onclick = function () {
+			var a = document.createElement("iframe");
+			a.setAttribute("src", "https://www.youtube.com/embed/" + this.id + "?autoplay=1&autohide=1&border=0&wmode=opaque&enablejsapi=1&rel=0");
+			a.setAttribute('allow', 'autoplay; fullscreen');
+			a.style.width = this.style.width;
+			a.style.height = this.style.height;
+			this.parentNode.replaceChild(a, this)
+		}
+	}
+	;
+
+}
+
+$(document).ready(function () {
+	initYotubeThings();
+});

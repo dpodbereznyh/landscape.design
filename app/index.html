@@ -56,7 +56,7 @@
 	<main>
 		<div class="head-menu sticky-top">
 			<div class="container-fluid">
-				<nav class="main-nav" role="navigation">
+				<nav class="main-nav">
 
 					<!-- Mobile menu toggle button (hamburger/x icon) -->
 					<input id="main-menu-state" type="checkbox" />
@@ -73,6 +73,7 @@
 						<li><a href="#yak1" class="yakor">Преимущества</a></li>
 						<li><a href="#yak2" class="yakor">Услуги</a></li>
 						<li><a href="#advice" class="yakor">Важный совет</a></li>
+						<li><a href="#yak4" class="yakor">О компании</a></li>
 						<li><a href="#yak3" class="yakor">Этапы работы</a></li>
 						<li><a href="#foot-map" class="yakor">Контакты</a></li>
 						<li class="d-block d-lg-none"><a href="tel:88003504881">8 800 350 48 81</a></li>
@@ -163,7 +164,7 @@
 							<div class="pluses__wrap-img">
 								<img src="../img/pluses/8.png" alt="" class="img-responsive">
 							</div>
-							<div class="pluses__wrap-title">У вас сохраниться план коммуникаций на будующее – вы будете знать где проложены трубы и провода, тем самым не повредите их при каких либо работах</div>
+							<div class="pluses__wrap-title">У вас сохраниться план коммуникаций на будущее – вы будете знать где проложены трубы и провода, тем самым не повредите их при каких либо работах</div>
 						</div>
 					</div>
 				</div>
@@ -217,9 +218,10 @@
 		</div>
 		<div class="advice" id="advice">
 			<div class="container-fluid">
-				<a data-src="https://youtu.be/bwJ7f6UPkgs" class="main-screen__video_wrapper">
-					<div class="youtube video-container-main" data-thumb="../img/main-screen/main-screen-bg.jpg">
-						<button class="main-screen__video__btn"></button>
+				<div class="main-title">Важный совет</div>
+				<a data-src="#" class="advice__video_wrapper">
+					<div class="youtube video-container-main" data-thumb="../img/advice-cover.jpg">
+						<div class="advice__video__btn"></div>
 					</div>
 				</a>
 			</div>
@@ -231,9 +233,11 @@
 						<div class="present__info">
 							<div class="present__info-title">ВЫГОДНОЕ ПРЕДЛОЖЕНИЕ</div>
 							<div class="present__info-subtitle">
-								Бесплатный проект на озеленение
+								Скидка 99% на<br>
+								ландшафтный<br>
+								проект
 							</div>
-							<a href="#" data-fancybox data-src="#popup-form" class="cmn-btn js-buy" data-title="Узнать подробнее (Бесплатный проект на озеленение)" data-input="Бесплатный проект на озеленение">Узнать подробнее</a>
+							<a href="#" data-fancybox data-src="#popup-form" class="cmn-btn js-buy" data-title="Узнать подробнее (Скидка на ландшафтный проект)" data-input="Скидка на ландшафтный проект">Узнать подробнее</a>
 						</div>
 					</div>
 				</div>
@@ -303,40 +307,61 @@
 			<div class="container-fluid">
 				<div class="main-title light-title">Этапы работы</div>
 				<div class="row">
-					<div class="col-12 col-md-6 col-lg-3 mb-4">
+					<div class="col-12 col-md-6 col-lg-4 mb-4">
 						<div class="etap__wrap">
 							<div class="etap__wrap-count">
-								<img src="../img/etap_counter.svg" alt="" class="etap__wrap-count-img">
-								<div class="etap__wrap-count-text">1</div>
+								<img src="../img/stages/stages-icon1.svg" alt="" class="etap__wrap-count-img">
+								<!-- <div class="etap__wrap-count-text">1</div> -->
 							</div>
-							<div class="etap__wrap-text">Замер. На этом этапе вы получаете смету и проект</div>
+							<div class="etap__wrap-text">Вы направляете нам заявку, 
+								либо оставляете ее по телефону</div>
 						</div>
 					</div>
-					<div class="col-12 col-md-6 col-lg-3 mb-4">
+					<div class="col-12 col-md-6 col-lg-4 mb-4">
 						<div class="etap__wrap">
 							<div class="etap__wrap-count">
-								<img src="../img/etap_counter.svg" alt="" class="etap__wrap-count-img">
-								<div class="etap__wrap-count-text">2</div>
+								<img src="../img/stages/stages-icon2.svg" alt="" class="etap__wrap-count-img">
+								<!-- <div class="etap__wrap-count-text">2</div> -->
 							</div>
-							<div class="etap__wrap-text">Старт работ. Разметка и раскопка траншеи</div>
+							<div class="etap__wrap-text">К Вам выезжает наш 
+								ландшафтный архитектор</div>
 						</div>
 					</div>
-					<div class="col-12 col-md-6 col-lg-3 mb-4">
+					<div class="col-12 col-md-6 col-lg-4 mb-4">
 						<div class="etap__wrap">
 							<div class="etap__wrap-count">
-								<img src="../img/etap_counter.svg" alt="" class="etap__wrap-count-img">
-								<div class="etap__wrap-count-text">3</div>
+								<img src="../img/stages/stages-icon3.svg" alt="" class="etap__wrap-count-img">
+								<!-- <div class="etap__wrap-count-text">3</div> -->
 							</div>
-							<div class="etap__wrap-text">Установка и монтаж оборудования</div>
+							<div class="etap__wrap-text">И производит замер, а также<br>
+								фиксирует все Ваши пожелания.</div>
 						</div>
 					</div>
-					<div class="col-12 col-md-6 col-lg-3 mb-4">
+					<div class="col-12 col-md-6 col-lg-4 mb-4">
 						<div class="etap__wrap">
 							<div class="etap__wrap-count">
-								<img src="../img/etap_counter.svg" alt="" class="etap__wrap-count-img">
-								<div class="etap__wrap-count-text">4</div>
+								<img src="../img/stages/stages-icon4.svg" alt="" class="etap__wrap-count-img">
+								<!-- <div class="etap__wrap-count-text">4</div> -->
 							</div>
-							<div class="etap__wrap-text">Подробный инструктаж по использованию автополива</div>
+							<div class="etap__wrap-text">Создается проект со всеми чертежами</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 mb-4">
+						<div class="etap__wrap">
+							<div class="etap__wrap-count">
+								<img src="../img/stages/stages-icon5.svg" alt="" class="etap__wrap-count-img">
+								<!-- <div class="etap__wrap-count-text">4</div> -->
+							</div>
+							<div class="etap__wrap-text">Производится осмечивание проекта</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 mb-4">
+						<div class="etap__wrap">
+							<div class="etap__wrap-count">
+								<img src="../img/stages/stages-icon6.svg" alt="" class="etap__wrap-count-img">
+								<!-- <div class="etap__wrap-count-text">4</div> -->
+							</div>
+							<div class="etap__wrap-text">При согласовании сметы проект воплощаем в жизнь</div>
 						</div>
 					</div>
 				</div>
@@ -348,36 +373,24 @@
 				<div class="answer-border">
 					<div class="answer__wrap">
 						<div class="row">
-							<div class="col-12 col-xl-8">
+							<div class="col-12 col-xl-9">
 								<div class="answer__wrap-info">
-									<div class="answer__wrap-info-title">консультация эксперта</div>
-
+									<div class="answer__wrap-info-title">Ответим на любые ваши вопросы</div>
+									<div class="answer__wrap-info-subtitle">Введите ваши данные и мы перезвоним вам в ближайшее время</div>
 									<form id="answer-form">
-										<div class="answer__wrap_label">
-											<label class="answer__wrap_label_label">
-												<input class="answer__wrap_label_checkbox" type="checkbox" name="checkedDesign" value="">
-												<span class="answer__wrap_label_span"></span>
-												Проектирование систем автополива
-											</label>
-											<label class="answer__wrap_label_label">
-												<input class="answer__wrap_label_checkbox" type="checkbox" name="checkedService" value="">
-												<span class="answer__wrap_label_span"></span>
-												Обслуживание автополива
-											</label>
-										</div>
 										<div class="row">
 											<div class="col-12 col-sm-5">
 												<div class="answer-form-input">
-													<input type="hidden" value="Заявка в блоке (Консультация эксперта)" name="title" required="">
-													<input type="text" name="name" placeholder="Ваше имя" class="cmn-input input-name" required="">
+													<input type="hidden" value="Заявка в блоке ответим на ваши вопросы" name="title">
+													<input type="text" name="name" placeholder="Ваше имя" required="" class="cmn-input input-name">
 												</div>
 											</div>
 											<div class="col-12 col-sm-5">
 												<div class="answer-form-input">
-													<input type="tel" name="phone" placeholder="Телефон" class="cmn-input input-phone" required="">
+													<input type="tel" name="phone" placeholder="Телефон" required="" class="cmn-input input-phone">
 												</div>
 											</div>
-											<div class="col-11">
+											<div class="col-12">
 												<div class="answer-form-btn">
 													<button class="cmn-btn">Отправить заявку</button>
 													<div class="answer-form-btn-text">Нажимая на кнопку, вы принимаете<br>условия <a href="/politic.pdf" class="answer-form-btn-text-link" target="_blank">передачи данных</a></div>
@@ -390,14 +403,12 @@
 							<div class="col-12 col-sm-3 d-none d-xl-block">
 								<div class="answer__wrap-img">
 									<img src="../img/manager.jpg" alt="" class="answer__manager_image">
-									<div class="answer__manager_caption" >
-                                        <p class="answer__manager_post">
-                                            Руководитель отдела внутреннего<br>и внешнего озеленения
-                                        </p>
-                                        <p class="answer__manager_name">
-                                            Станислав Кузнецов
-                                        </p>
-                                    </div>
+									<p class="answer__manager_post">
+										Руководитель ландшафтно-архитектурного клуба
+									</p>
+									<p class="answer__manager_name">
+										Шишигина Виктория Викторовна
+									</p>
 								</div>
 							</div>
 						</div>
@@ -460,8 +471,9 @@
 					</a>
 					<ul class="foot__top-list">
 						<li><a href="#yak1" class="foot__top-list-row yakor">Преимущества</a></li>
-						<li><a href="#yak2" class="foot__top-list-row yakor">Наша продукция</a></li>
+						<li><a href="#yak2" class="foot__top-list-row yakor">Услуги</a></li>
 						<!--<li><a href="#" class="foot__top-list-row yakor">Отзывы</a></li>-->
+						<li><a href="#advice" class="foot__top-list-row yakor">Важный совет</a></li>
 						<li><a href="#yak4" class="foot__top-list-row yakor">О компании</a></li>
 						<li><a href="#yak3" class="foot__top-list-row yakor">Этапы работы</a></li>
 						<li><a href="#foot-map" class="foot__top-list-row yakor">Контакты</a></li>
@@ -482,7 +494,7 @@
 			<form id="popup-form">
 				<div class="popup-form">
 					<h2 class="popup-form-title js-title mb-5">Заказать обратный звонок</h2>
-					<input class="cmn-input mb-4 js-zakaz" type="hidden" value="Всплывающая форма" name="title" required="">
+					<input class="cmn-input mb-4 js-zakaz" type="hidden" value="Всплывающая форма" name="title">
 					<input class="cmn-input mb-4" type="text" placeholder="Ваше имя" name="name" required="">
 					<input class="cmn-input mb-4" type="tel" placeholder="Ваш телефон" name="phone" required="">
 					<div class="d-flex justify-content-center mt-4">
